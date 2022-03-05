@@ -11,10 +11,10 @@ C --> E[Database]
 C --> F[Storage]
 ```
 ```mermaid
-Z[Desenvolvimento] --> A[Front-End]
-A[Front-End] --> C{Firebase}
-B(Back-End) --> C{Firebase}
-C --> D[Auth]
-C --> E[Database]
-C --> F[Storage]
+A[Desenvolvimento] --> A[Front-End]
+B[Front-End] --> D{Firebase}
+C(Back-End) --> D{Firebase}
+D --> E[Auth]
+D --> F[Database]
+D --> G[Storage]
 ```
