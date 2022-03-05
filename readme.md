@@ -15,7 +15,7 @@ flowchart LR
 A[Inicio] -->|Firebase| B(Database)
 B --> |Python| C{API}
 C --> D[Auth]
-C -->|Python| E[Back-End]
+C --> E[Database]
 E --> |Python| F[Login]
 D -->|Javascript| G[Login]
 D -->|Javascript| H[Manager]
