@@ -16,5 +16,5 @@ A[Inicio] -->|Firebase| B(Database)
 B --> |Python| C{API}
 C --> D[Auth]
 C --> E[Database]
-C --> F[Database]
+C --> F[Storage]
 ```
