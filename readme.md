@@ -16,8 +16,5 @@ A[Inicio] -->|Firebase| B(Database)
 B --> |Python| C{API}
 C --> D[Auth]
 C --> E[Database]
-E --> |Python| F[Login]
-D -->|Javascript| G[Login]
-D -->|Javascript| H[Manager]
-E --> |Python| I[Manager]
+C --> F[Database]
 ```
