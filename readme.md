@@ -12,7 +12,7 @@ E --> |Python| I[Manager]
 ```
 ```mermaid
 flowchart LR
-A[Inicio] -->|Firebase| B(Database)
+A[Front-End] --> B(Database)
 B --> C{API}
 C --> D[Auth]
 C --> E[Database]
