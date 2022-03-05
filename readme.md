@@ -13,8 +13,7 @@ E --> |Python| I[Manager]
 ```mermaid
 flowchart LR
 A[Front-End] --> C{API}
-B(Database) --> C{API}
-B --> C{API}
+B(Back-End) --> C{API}
 C --> D[Auth]
 C --> E[Database]
 C --> F[Storage]
