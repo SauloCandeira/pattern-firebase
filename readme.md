@@ -11,7 +11,7 @@ C --> E[Database]
 C --> F[Storage]
 ```
 ```mermaid
-A[Desenvolvimento] --> B[Front-End]
+A[Desenvolvimento] --> C(Back-End)
 B[Front-End] --> D{Firebase}
 C(Back-End) --> D{Firebase}
 D --> E[Auth]
