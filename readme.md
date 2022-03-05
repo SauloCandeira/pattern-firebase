@@ -14,7 +14,7 @@ E --> |Python| I[Manager]
 flowchart LR
 A[Inicio] -->|Firebase| B(Database)
 B --> |Python| C{API}
-C -->|Javascript| D[Front-End]
+C --> D[Front-End]
 C -->|Python| E[Back-End]
 E --> |Python| F[Login]
 D -->|Javascript| G[Login]
